@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f8f9fa;
+}
+header{
+    background: #353254;
+    color: #fff;
+    padding-top:15px;
+    padding-bottom:8px;
+}
+
+.header_anquare{
+    color: #fff;
+}
+
+.section-one{
+    padding-bottom: 80px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+}
+.btn_login{ 
+    background-color: none !important;
+    color: #353254 !important;
+    font-size: .875rem !important;
+    line-height: 1.25rem !important;
+    padding: 13.25px 34.5px !important;
+    border: 1px solid #353254 !important;
+    border-radius: .5rem !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    font-family: Medium,sans-serif !important;
+}
+.btn_login:hover{
+    border: 1px solid #0FB4BB !important;
+    background-color: #0FB4BB !important;
+    color: #fff !important;
+}
+
+.btn_signup{ 
+    background-color: #0FB4BB !important;
+    color: #fff !important;
+    font-size: .875rem !important;
+    line-height: 1.25rem !important;
+    padding: 13.25px 34.5px !important;
+    border: 1px solid #0FB4BB !important;
+    border-radius: .5rem !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    font-family: Medium,sans-serif !important;
+    margin-left: 1.5rem !important;
+}
+.btn_signup:hover{
+    border: 1px solid #0FB4BB !important;
+    background-color: #21a2a6 !important;
+}
+
+.nav_color:hover{
+    color: #0FB4BB !important;
+}
+
+.title_meet{
+    color: rgb(39, 6, 99);
+    font-size: 70px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .title_meet{
+        font-size: 30px;
+    }
+
+    .description_transform{
+        font-size: 18px !important;
+    }
+}
+@media screen and (max-width: 968px) {
+    .title_meet{
+        font-size: 35px;
+    }
+
+    .description_transform{
+        font-size: 18px !important;
+    }
+
+    .quote{
+        font-size: 35px !important;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .description_transform{
+        font-size:  14px !important;
+    }
+    .quote{
+        font-size: 30px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .description_transform{
+        font-size:  14px !important;
+    }
+    .quote{
+        font-size: 30px !important;
+    }
+}
+
+.description_transform{
+    padding-right: 100px;
+}
+
+
+.btn_google{
+    font-size: 15px !important;
+    font-family: medium,sans-serif !important;
+    background-color:#5195ee !important; 
+    color: #fff !important;
+    font-weight: 400 !important;
+    padding: 10px 20px !important;
+
+}
+.btn_google:hover{
+    background-color: #3e88ea !important;
+}
+.btn_picto{
+    font-size: 15px !important;
+    transition: all .3s ease-in-out !important;
+    color: #000 !important;
+    font-weight: 400 !important;
+    border: 1px solid #000 !important;
+    padding: 10px 20px !important;
+}
+.btn_picto:hover{
+    background-color: #0FB4BB !important;
+    color: #fff !important;
+    border: 1px solid #0FB4BB !important;
+}
+
+.rec_logo{
+    width: 150px;
+    /* height: 100px; */
+}
+
+.not_rec_logo{
+    width: 80px;
+    /* height: 100px; */
+}
+
+.logos_brands>span>img{
+    padding-right: 10px;
+}
+
+.logos_brands{
+    padding-top:30px ;
+}
+
+.video_style{
+    border: 1px solid #dee2e6 ;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.right_section{
+    padding: 30px;
+}
+
+.navbar-toggler-icon{
+    color: #000 !important;
+}
+
+/* end section one */
+
+.section_two{
+    background-color: #f6f7f8;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section_two_logo{
+    margin: 10px;
+}
+
+.logo_brands_section_two{
+    padding-top: 20px;
+    word-spacing: 35px;
+}
+
+/* end section two */
+
+.section_three{
+    background-color:#213150 ;
+}
+
+.section_three_container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.job{
+    color: #b2b4c2;
+    margin-top: -20px;
+    font-size: 15px;
+}
+
+.quote{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.author{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.tab-content{
+    box-shadow: 3px 3px 3px 3px #766a6c;
+}
+
+.box_tab_one{
+    font-size: 18px;
+}
+.instant_visual_gif{
+    height: 618px;
+}
+
+.description_transform_one{
+    font-size: 20px !important;
+    font-weight: 600;
+}
+.btn_generate{
+    background-color: #0FB4BB !important;
+    color: #fff !important;
+    font-size: .875rem !important;
+    line-height: 1.25rem !important;
+    padding: 13.25px 34.5px !important;
+    border: 1px solid #0FB4BB !important;
+    border-radius: .5rem !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    font-family: Medium,sans-serif !important;
+}
+
+.btn_generate:hover{
+    border: 1px solid #0FB4BB !important;
+    background-color: #21a2a6 !important;
+}
+
+.instant_visual_gif_two{
+  border-style: none;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+}
+.title_from{
+    color: #34bfc5;
+    font-size: 16px;
+}
+
+.title_two_ai{
+    font-size: 35px;
+    font-weight: 600;
+}
+.section_four{
+    padding-top: 180px;
+    padding-bottom: 80px;
+}
+
+.section_v_vi
+{
+    background: url("https://piktochart.com/wp-content/uploads/2020/09/Format_benefit_BG_3.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.img_style_two{
+  height: 200px !important;
+}
+
+
+.card {
+    border: none;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 8px 8px 8px 8px #766a6c !important;
+
+}
+  .card img {
+    max-width: 100%;
+    height: auto;
+   
+}
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  .card-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-title:hover{
+    color: #0FB4BB;
+}
+
+.card-text{
+    color: rgb(100, 116, 123);
+}
+
+.btn_explore{
+    margin-top: 100px !important;
+    font-size: 15px !important;
+    color: rgb(100, 116, 123) !important;
+}
+
+label{
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+label:hover{
+    box-shadow: 8px 8px 8px 8px #766a6c;
+    background-color: #e4eaea !important;
+}
+
+.imh_template{
+    border-style: none;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.btn_explore_free{
+    color: #0fb4bb !important;
+    background-color: #fff !important;
+    border: none !important;
+    font-size: 18px !important;
+    margin-top: 50px !important;
+}
+.btn_explore_free:hover{
+    color: #fff !important;
+    background-color: #0FB4BB !important;
+    border: none !important;
+    border: 1px solid #fff !important;
+}
+
+.section-11{
+    background: url("https://piktochart.com/wp-content/themes/piktochart/img/dots-alt.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}.footer {
+    background-color: #3A3551; /* Dark background */
+    color: #fff;
+    padding: 15px 0;
+    width: 100%;
+    bottom: 0;
+  }
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
